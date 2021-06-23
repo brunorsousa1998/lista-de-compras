@@ -6,7 +6,7 @@
 
 ## Projeto
 Projeto de aprendizagem em desenvolvimento front-end, com foco em funcionalidades da linguagem javascript. Foi pensado um projeto que utiliza criação, manipulação 
-e adição de elementos html atravez de javascript, assim como a utilização de event listeners.
+e adição de elementos html através de javascript, assim como a utilização de event listeners.
 
 ### Desenvolvimento com html, css e javascript
 
