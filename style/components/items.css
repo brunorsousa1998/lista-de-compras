@@ -1,0 +1,35 @@
+.items {
+    padding: var(--spacing);
+    width: 100%;
+}
+
+.item {
+    margin-top: calc(var(--spacing) * 2);
+    border-radius: var(--radius);
+    padding: var(--padding);
+    display: grid;
+    grid-template-columns: 160px auto 40px;
+    grid-template-rows: auto auto;
+    grid-template-areas: 
+        "text text text"
+        "type empty checkbox";
+}
+
+.item-text {
+    margin-top: var(--margin);
+    font: var(--font-title);
+    grid-area: text;
+}
+
+.item-done {
+    grid-area: checkbox;
+}
+
+.item-type {
+    font: var(--font-title);
+    color: var(--white);
+    background-color: var(--red);
+    border-radius: var(--radius);
+    text-align: center;
+    grid-area: type;
+}

@@ -1,0 +1,26 @@
+:root {
+    /* colors */
+    --black: #1E1F20;
+    --white: #FFF9FB;
+    --red: #FF5964;
+    --dark-red: #BC103B;
+    --yellow: #FFB400;
+    --green: #7DDF64;
+    --blue: #35A7FF;
+    --pink: #ED4D6E;
+
+    /* spacing */
+    --spacing: 1rem;
+
+    /* border */
+    --border: .15rem solid;
+    --radius: .2rem;
+
+    /* font */
+    --font-highlight: 1.9rem 'Lobster', serif;
+    --font-title: 1.1rem 'Poppins', sans-serif;
+    --font-text: .9rem 'Poppins', sans-serif;
+
+    /* animation */
+    --animation-time: .6s;
+}

@@ -1,0 +1,11 @@
+.button {
+    width: 100%;
+    border: none;
+    background-color: var(--red);
+    font: var(--font-highlight);
+    color: var(--white);
+    border-radius: var(--radius);
+    transition: var(--animation-time) ease-in;
+    margin: var(--spacing) 0;
+    text-align: center;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/base.css">
+    <link rel="stylesheet" href="./style/components.css">
+    <title>Lista de Compras</title>
+</head>
+<body>
+    <header>
+        <section class="logo">
+            <h1>Lista de<br/>Compras</h1>
+        </section>
+    </header>
+    <main>
+        <form class="form">
+            <div class="input" id="product-name">
+                <label class="input-label">Nome do Produto</label>
+                <input class="input-field" type="text" maxlength="25"/>
+                <p class=input-error></p>
+            </div>
+            <div class="input" id="product-quantity">
+                <label class="input-label">Quantidade</label>
+                <input class="input-field" type="number" max="9999"/>
+                <p class=input-error></p>
+            </div>
+            <div class="selectors">
+                <button class="selector" id="active">Alimentos</button>
+                <button class="selector">Higiene</button>
+                <button class="selector">Utensilios</button>
+                <button class="selector">Roupas</button>
+                <button class="selector">Eletrodomésticos</button>
+                <button class="selector">Outros</button>
+            </div>
+            <button class="button" id="register">Cadastrar</button>
+        </form>
+        <ul class="items">
+        </ul>
+    </main>
+    <footer>
+        <h5>Designed by Bruno Sousa</h5>
+    </footer>
+
+    <script src="script/input.js" type="module"></script>
+    <script src="script/list.js" type="module"></script>
+</body>
+</html>

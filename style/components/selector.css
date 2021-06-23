@@ -1,0 +1,18 @@
+.selectors {
+    margin: var(--spacing) 0;
+}
+
+.selector {
+    width: 100%;
+    background-color: var(--white);
+    border: var(--border) var(--red);
+    font: var(--font-title);
+    color: var(--red);
+    border-radius: var(--radius);
+}
+
+#active {
+    border: none;
+    background-color: var(--red);
+    color: var(--white);
+}

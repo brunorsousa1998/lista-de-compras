@@ -1,0 +1,4 @@
+.logo {
+    font: var(--font-highlight);
+    color: var(--red);
+}
