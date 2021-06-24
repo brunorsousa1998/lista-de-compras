@@ -13,7 +13,7 @@ export default {
         if(input === "") {
             return "Digite a quantidade de unidades do produto"
         }
-        else if(!/^[1-9][1-9]*$/.test(input)) {
+        else if(!/^[1-9][0-9]*$/.test(input)) {
             return "A quantidade do produto precisa ser maior que zero";
         }
 
